@@ -1,13 +1,18 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <Products></Products>
+    <!-- <router-view></router-view> -->
   </div>
 </template>
 
 <script>
 
+import Products from './views/Products'
 export default {
   name: 'App',
+  components:{
+    Products
+  }
 }
 </script>
 
